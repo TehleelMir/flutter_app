@@ -23,7 +23,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     _getCategories();
-    recommendationList = RecommendationModel.getRecommendationList()
+    recommendationList = RecommendationModel.getRecommendationList();
     return Scaffold(
       appBar: appBar(),
       body: appBody(),
